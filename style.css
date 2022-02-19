@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bar {
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+#canvas {
+    border: transparent;
+}
+
+@media screen and (max-width: 600px) {
+    #canvas {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
